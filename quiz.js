@@ -1,4 +1,4 @@
-const { getUserInput } = require("./input.js");
+const readlineSync = require("readline-sync");
 
 // Function to ask a quiz question and returns a new user score that is incremented for correct answer
 function askQuestion(questionObj, userScore) {}
